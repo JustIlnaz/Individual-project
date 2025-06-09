@@ -1,3 +1,6 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 :root {
       --primary-color: #d94f43;
       --secondary-color: #ffd700;
@@ -35,8 +38,8 @@
     }
 
     .logo img {
-      width: 40px;
-      height: 40px;
+      width: 150px;
+      height: 80px;
       border-radius: 50%;
       margin-right: 10px;
     }
@@ -60,10 +63,10 @@
     }
 
     .hero {
-      background-image: url('https://placehold.co/1200x400/d94f43/fff?text=Добро+пожаловать+в+мой+мир+кухни!');
-      background-size: cover;
+      background-image: url('https://avatars.mds.yandex.net/get-kino-vod-films-gallery/33804/390521c15d6e9158175ff7ce5e8b6d39/380x240');
+      background-size:contain;
       background-position: center;
-      height: 40vh;
+      height: 240px;
       position: relative;
       display: flex;
       align-items: center;
